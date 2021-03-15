@@ -1,0 +1,30 @@
+$primary: lightblue;
+$danger: rgb(0, 128, 111);
+
+.text-center {
+  text-align: center;
+}
+
+
+ul {
+  display: flex;
+  justify-content: center;
+
+  li {
+    list-style-type: none;
+
+    .image {
+      background-repeat: no-repeat;
+      background-position: bottom;
+      width: 250px;
+      height: 250px;
+      border: 1px teal solid;
+      margin: 1rem;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
