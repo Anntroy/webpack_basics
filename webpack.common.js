@@ -3,9 +3,9 @@ const path = require("path");
 const webpack = require('webpack');
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/js/main.js",
   plugins: [new HtmlWebpackPlugin({
-    template: "./src/template.html"
+    template: "./src/index.html"
   }),
   new webpack.ProvidePlugin({
     $: 'jquery',

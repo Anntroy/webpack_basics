@@ -1,8 +1,14 @@
-$primary: lightblue;
-$danger: rgb(0, 128, 111);
+@use "./colors.scss" as c;
+@use "./text.scss" as t;
+
+.container {
+  background-color: c.$color-bg;
+}
 
 .text-center {
   text-align: center;
+  color: c.$color-blue-1;
+  font-family: t.$font-title;
 }
 
 
@@ -15,10 +21,8 @@ ul {
 
     .image {
       background-repeat: no-repeat;
-      background-position: bottom;
       width: 250px;
       height: 250px;
-      border: 1px teal solid;
       margin: 1rem;
     }
   }
